@@ -1,0 +1,102 @@
+[
+  {
+    "brief": "A SaaS CRM platform for managing customer interactions with real-time notifications and chat features, expected to handle 10,000 users in the first year, built by a JavaScript-focused team.",
+    "stack_id": "realtime_crm"
+  },
+  {
+    "brief": "A CRM tool for sales teams with integrated email and calendar sync, requiring real-time updates for a growing user base.",
+    "stack_id": "realtime_crm"
+  },
+  {
+    "brief": "An online marketplace for freelance services with secure payment processing and user reviews.",
+    "stack_id": "marketplace"
+  },
+  {
+    "brief": "A peer-to-peer marketplace for renting equipment, including payment integration and location-based search.",
+    "stack_id": "marketplace"
+  },
+  {
+    "brief": "A simple blog website for a startup to share company news and updates, with a tight 2-week launch deadline.",
+    "stack_id": "mvp_blog"
+  },
+  {
+    "brief": "A brochure site for a consulting firm, showcasing services and team, needing quick deployment.",
+    "stack_id": "mvp_blog"
+  },
+  {
+    "brief": "A social media app for sharing photos and videos, with heavy media upload and streaming capabilities.",
+    "stack_id": "media_sharing"
+  },
+  {
+    "brief": "A video sharing platform for educational content, requiring CDN for global distribution.",
+    "stack_id": "media_sharing"
+  },
+  {
+    "brief": "An internal dashboard for tracking employee performance and project metrics in a small organization.",
+    "stack_id": "internal_tool"
+  },
+  {
+    "brief": "A tool for managing inventory and orders for a retail business, with simple UI and database.",
+    "stack_id": "internal_tool"
+  },
+  {
+    "brief": "A progressive web app for tracking fitness goals, with offline functionality and mobile-first design.",
+    "stack_id": "mobile_pwa"
+  },
+  {
+    "brief": "A PWA for a news aggregator, allowing offline reading and push notifications.",
+    "stack_id": "mobile_pwa"
+  },
+  {
+    "brief": "A collaborative document editor with real-time editing and comments, similar to Google Docs.",
+    "stack_id": "collaboration_tool"
+  },
+  {
+    "brief": "A project management tool with real-time task updates and team chat.",
+    "stack_id": "collaboration_tool"
+  },
+  {
+    "brief": "An e-commerce site for selling handmade jewelry, with inventory management and payment processing.",
+    "stack_id": "ecommerce_store"
+  },
+  {
+    "brief": "An online store for digital products like ebooks and courses, integrated with Shopify.",
+    "stack_id": "ecommerce_store"
+  },
+  {
+    "brief": "A platform for building and deploying AI chatbots, with vector database for knowledge retrieval.",
+    "stack_id": "ai_assistants"
+  },
+  {
+    "brief": "An AI-powered assistant for customer support, using Mastra for agentic workflows.",
+    "stack_id": "ai_assistants"
+  },
+  {
+    "brief": "A data visualization dashboard for analyzing sales data from multiple sources.",
+    "stack_id": "data_analytics"
+  },
+  {
+    "brief": "An ETL pipeline for processing and visualizing big data from user logs.",
+    "stack_id": "data_analytics"
+  },
+  {
+    "brief": "A real-time chat application for customer support in a CRM system.",
+    "stack_id": "realtime_crm"
+  },
+  {
+    "brief": "A marketplace for buying and selling used cars with escrow payments.",
+    "stack_id": "marketplace"
+  },
+  {
+    "brief": "A personal blog for a developer to share tutorials and code snippets.",
+    "stack_id": "mvp_blog"
+  },
+  {
+    "brief": "A media gallery for photographers to showcase portfolios with high-res images.",
+    "stack_id": "media_sharing"
+  },
+  {
+    "brief": "A mobile app for expense tracking with offline sync.",
+    "stack_id": "mobile_pwa"
+  }
+]

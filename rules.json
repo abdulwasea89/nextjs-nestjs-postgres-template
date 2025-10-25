@@ -1,0 +1,142 @@
+[
+  {
+    "id": "rule_1",
+    "priority": 9,
+    "condition_json": {"realtime": true},
+    "action_json": {"prefer": "stacks with WebSocket support like Socket.IO or Phoenix"},
+    "description": "If realtime features are required, prefer stacks that support WebSocket for real-time communication."
+  },
+  {
+    "id": "rule_2",
+    "priority": 8,
+    "condition_json": {"users": {"$lt": 1000}, "timeline_months": {"$lt": 2}},
+    "action_json": {"prefer": "serverless stacks like Firebase or Vercel"},
+    "description": "For small user base and short timeline, prefer serverless stacks for quick deployment."
+  },
+  {
+    "id": "rule_3",
+    "priority": 10,
+    "condition_json": {"team_skills": {"$in": ["JavaScript"]}},
+    "action_json": {"prefer": "JS-native stacks like Next.js and NestJS"},
+    "description": "If team has JavaScript skills, prefer JS-native stacks for faster development."
+  },
+  {
+    "id": "rule_4",
+    "priority": 7,
+    "condition_json": {"heavy_media": true},
+    "action_json": {"prefer": "stacks with CDN and object storage like AWS S3"},
+    "description": "For heavy media handling, prefer stacks with CDN and object storage for performance."
+  },
+  {
+    "id": "rule_5",
+    "priority": 9,
+    "condition_json": {"high_security": true},
+    "action_json": {"prefer": "stacks with Postgres and VPC"},
+    "description": "For high security requirements, prefer stacks with PostgreSQL and VPC isolation."
+  },
+  {
+    "id": "rule_6",
+    "priority": 6,
+    "condition_json": {"budget": {"$lt": 5000}},
+    "action_json": {"prefer": "free tier stacks like Vercel and SQLite"},
+    "description": "For low budget, prefer stacks with generous free tiers."
+  },
+  {
+    "id": "rule_7",
+    "priority": 5,
+    "condition_json": {"timeline_months": {"$gt": 6}},
+    "action_json": {"prefer": "scalable stacks like AWS ECS"},
+    "description": "For long timelines, prefer scalable infrastructure for future growth."
+  },
+  {
+    "id": "rule_8",
+    "priority": 8,
+    "condition_json": {"auth": true},
+    "action_json": {"prefer": "stacks with built-in auth like Supabase"},
+    "description": "If authentication is needed, prefer stacks with built-in auth solutions."
+  },
+  {
+    "id": "rule_9",
+    "priority": 6,
+    "condition_json": {"mobile": true},
+    "action_json": {"prefer": "PWA capable stacks like Next.js with Service Workers"},
+    "description": "For mobile-first apps, prefer PWA capable stacks."
+  },
+  {
+    "id": "rule_10",
+    "priority": 7,
+    "condition_json": {"ai": true},
+    "action_json": {"prefer": "stacks with vector DB like Weaviate or Pinecone"},
+    "description": "For AI features, prefer stacks with vector database support."
+  },
+  {
+    "id": "rule_11",
+    "priority": 8,
+    "condition_json": {"ecommerce": true},
+    "action_json": {"prefer": "stacks with commerce API like Shopify"},
+    "description": "For ecommerce, prefer stacks with commerce API integrations."
+  },
+  {
+    "id": "rule_12",
+    "priority": 6,
+    "condition_json": {"analytics": true},
+    "action_json": {"prefer": "stacks with data pipeline like BigQuery"},
+    "description": "For analytics, prefer stacks capable of handling data pipelines."
+  },
+  {
+    "id": "rule_13",
+    "priority": 5,
+    "condition_json": {"team_size": {"$lt": 3}},
+    "action_json": {"prefer": "simple stacks like Next.js and Vercel"},
+    "description": "For small teams, prefer simple and easy-to-maintain stacks."
+  },
+  {
+    "id": "rule_14",
+    "priority": 7,
+    "condition_json": {"legacy_integration": true},
+    "action_json": {"prefer": "flexible backend stacks like Node.js"},
+    "description": "For legacy integrations, prefer flexible backend stacks."
+  },
+  {
+    "id": "rule_15",
+    "priority": 6,
+    "condition_json": {"offline": true},
+    "action_json": {"prefer": "stacks with Service Workers"},
+    "description": "For offline support, prefer stacks with Service Worker capabilities."
+  },
+  {
+    "id": "rule_16",
+    "priority": 8,
+    "condition_json": {"payments": true},
+    "action_json": {"prefer": "stacks with Stripe integration"},
+    "description": "For payments, prefer stacks with Stripe or similar payment integrations."
+  },
+  {
+    "id": "rule_17",
+    "priority": 9,
+    "condition_json": {"collaboration": true},
+    "action_json": {"prefer": "realtime collaboration stacks like with WebRTC"},
+    "description": "For collaboration features, prefer realtime stacks with WebRTC."
+  },
+  {
+    "id": "rule_18",
+    "priority": 7,
+    "condition_json": {"media_streaming": true},
+    "action_json": {"prefer": "stacks with streaming infra like CloudFront"},
+    "description": "For media streaming, prefer stacks with streaming-capable infrastructure."
+  },
+  {
+    "id": "rule_19",
+    "priority": 8,
+    "condition_json": {"enterprise": true},
+    "action_json": {"prefer": "enterprise-grade stacks with VPC and KMS"},
+    "description": "For enterprise use, prefer stacks with enterprise-grade security and compliance."
+  },
+  {
+    "id": "rule_20",
+    "priority": 4,
+    "condition_json": {"open_source": true},
+    "action_json": {"prefer": "stacks with open source components"},
+    "description": "If open source preference, prefer stacks using open source technologies."
+  }
+]
